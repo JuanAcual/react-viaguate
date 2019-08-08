@@ -1,0 +1,136 @@
+body {
+    color: #8f8f8f;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
+.center {
+    text-align: center;
+}
+.width-100 {
+    width: 100%;
+}
+.bold {
+    font-weight: bold;
+}
+.filter-nav {
+    display: flex;
+    justify-content: space-between
+}
+
+/* Estilos de los Botones de busqueda */
+.inline-block {
+    display: inline-block;
+}
+.dolar {
+    font-size: 1.5rem;
+    position: absolute;
+    left: -20px;
+}
+.quetzal {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 0;
+    right: -20px;
+}
+.space {
+    margin: 6px 20px 0 0;
+}
+
+/* Estilos de los Cards */
+.cards-container {
+    width: 80%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.col {
+    padding: 0;
+    text-align: center;
+}
+.icon-size {
+    font-size: 1.8rem;
+}
+.quantity {
+    padding: 13px 0 0 0;
+}
+.barra {
+    padding: 10px 0 0 0;
+    border-bottom: 2px solid #e4e4e4;
+}
+div .card-title{
+    color: #6e6e6e;
+}
+.text-item {
+    font-size: .9rem;
+}
+.offer {
+    position: absolute;
+    background-color: orange;
+    left: 0;
+    top: 10px;
+    color: #fff;
+    font-weight: bold;
+    padding: 2px 15px;
+    border-radius: 0 3px 3px 0;
+}
+.heart-icon {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.red {
+    color: red;
+}
+.price {
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+    left: 0;
+    padding: 6px 14px;
+    position: absolute;
+    right: 0;
+    top: 44%;
+}
+.normal-price {
+    font-size: 0.8rem;
+}
+.actual-price {
+    font-weight: bold;
+}
+.nav {
+    border-bottom: 2px solid #e4e4e4;
+}
+.nav-menu {
+    font-weight: 600;
+}
+.logo {
+    border: 1px solid #888;
+}
+.logo span {
+    font-size: 3.5rem;
+}
+.menu-options {
+    padding: 20px 0 0 0;
+}
+.menu-options > button {
+    width: 130px;
+    border: 2px solid #888;
+}
+.sub-menu {
+    padding: 20epx 0 0 0;
+}
+.sub-menu span {
+    font-size: .9rem;
+    padding: 0 5px;
+}
+.sandwich {
+    font-size: 2.9rem;
+    color: #111;
+}
+
